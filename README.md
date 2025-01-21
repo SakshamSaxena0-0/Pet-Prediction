@@ -11,5 +11,5 @@ Pet_Predictions is a machine learning project that utilizes a Convolutional Neur
 
 ● Predicts whether an image is a cat or a dog.
 
-● "Provides confidence scores for predictions."
+<li> ● Provides confidence scores for predictions. <li>
 
