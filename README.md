@@ -26,3 +26,18 @@ Pet_Predictions is a machine learning project that utilizes a Convolutional Neur
 
 ● You can find datasets for cats and dogs on platforms like Kaggle.
 </ul>
+
+## Usage
+
+### Training the Model
+<ul dir="auto">
+Run the model_training.py file to train the CNN model.
+</ul>
+
+### Testing the Model
+<ul dir="auto">
+Run the model_execution.py file to test the trained model.
+</ul>
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
