@@ -6,9 +6,9 @@ Pet_Predictions is a machine learning project that utilizes a Convolutional Neur
 ### Features
 
 <ul dir="auto">
-<br>● Preprocesses and augments image datasets.</br>
+● Preprocesses and augments image datasets.
 
-● Trains a CNN model for binary classification. 
+<br>● Trains a CNN model for binary classification.</br> 
 
 ● Predicts whether an image is a cat or a dog.
 
