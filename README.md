@@ -14,3 +14,15 @@ Pet_Predictions is a machine learning project that utilizes a Convolutional Neur
 
 ● Provides confidence scores for predictions. 
 </ul>
+
+### Dataset
+<ul dir="auto">
+
+● Organize your dataset in the following structure:
+
+● dataset/training_set/: Contains subfolders cats/ and dogs/ with training images.
+
+● dataset/test_set/: Contains subfolders cats/ and dogs/ with test images.
+
+● You can find datasets for cats and dogs on platforms like Kaggle.
+</ul>
