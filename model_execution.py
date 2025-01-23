@@ -19,12 +19,13 @@ test_image = np.expand_dims(test_image, axis = 0)
 ##### Make prediction using the model #####
 result = cnn.predict(test_image)
 
-##### Model outputs 1 for dog, 0 for cat ##### 
+##### Model outputs 1 for dog, 0 for cat #####
 if result[0][0] == 1:
     prediction = 'dog'
+    confidence = result[0][0] * 100
 else:
     prediction = 'cat'
-
+    confidence = (1 - result[0][0]) 
 ##### Displaying the prediction and confidence score #####
 print(f"Prediction: {prediction}")
-print("Confidence: {abs(result[0][0] * 100):.2r}%")
+print(f"Confidence: {confidence:.2f}%")
